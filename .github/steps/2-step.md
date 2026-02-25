@@ -4,7 +4,7 @@ Il modo migliore per aggiungere automazione al repository del tuo progetto è tr
 
 ### Quali sono le parti di un workflow?
 
-![Un'illustrazione con una metà sinistra e una destra. Sulla sinistra: illustrazione di come i termini delle GitHub Actions sono incapsulati. Al livello più alto: workflow ed eventi trigger. All'interno dei workflow: job e definizione dell'ambiente di build. All'interno dei job: step. All'interno degli step: una chiamata a un'action. Sulla destra: la sequenza valutata: workflow, job, step, action.](../images/github-actions-workflow-diagram.png)
+![Un'illustrazione con una metà sinistra e una destra. Sulla sinistra: illustrazione di come i termini delle GitHub Actions sono incapsulati. Al livello più alto: workflow ed eventi trigger. All'interno dei workflow: job e definizione dell'ambiente di build. All'interno dei job: step. All'interno degli step: una chiamata a un'action. Sulla destra: la sequenza valutata: workflow, job, step, action.](https://github.com/IDT-25-27/idt-25-27-classroom-173794-test-con-actions-test-with-actions/blob/main/.github/images/github-actions-workflow-diagram.png?raw=true)
 
 - **Workflow**: Un'unità di automazione dall'inizio alla fine. Inizia quando il trigger (`on`) corrisponde a un'attività nel repository. Consiste di 1 o più job.
 
@@ -26,15 +26,15 @@ Puoi esplorare tutte le opzioni di configurazione nella [Documentazione di GitHu
 
 1. Nella navigazione a sinistra, sopra l'elenco dei workflow, fai clic sul pulsante **New workflow**.
 
-   <img width="250" alt="immagine" src="../images/new-workflow-button.png" />
+   <img width="250" alt="immagine" src="https://github.com/IDT-25-27/idt-25-27-classroom-173794-test-con-actions-test-with-actions/blob/main/.github/images/new-workflow-button.png?raw=true" />
 
 1. Inserisci `python package` nella casella di ricerca e fai clic sul pulsante **Enter**.
 
-   <img width="300" alt="casella di ricerca con il valore 'python package'" src="../images/python-search-box.png" />
+   <img width="300" alt="casella di ricerca con il valore 'python package'" src="https://github.com/IDT-25-27/idt-25-27-classroom-173794-test-con-actions-test-with-actions/blob/main/.github/images/python-search-box.png?raw=true" />
 
 1. Trova il workflow **Python package** e fai clic sul pulsante **Configure** per aprire un editor di file con un workflow pre-creato. (Non selezionare quello che usa Anaconda)
 
-   <img width="250" alt="immagine" src="../images/python-package-configure.png" />
+   <img width="250" alt="immagine" src="https://github.com/IDT-25-27/idt-25-27-classroom-173794-test-con-actions-test-with-actions/blob/main/.github/images/python-package-configure.png?raw=true" />
 
 1. Intorno alla riga 6, semplifica il trigger `on`. Rimuovi il trigger `push` e mantieni il trigger `pull_request`.
 
@@ -69,7 +69,7 @@ File di workflow finito: `.github/workflows/python-package.yml.example`
 
 1. Controlla la barra di stato per un aggiornamento in sospeso. Fai clic su di essa per eseguire il pull del workflow di cui hai fatto il commit recentemente.
 
-   <img width="130" alt="immagine" src="../images/sync-changes-button.png" />
+   <img width="130" alt="immagine" src="https://github.com/IDT-25-27/idt-25-27-classroom-173794-test-con-actions-test-with-actions/blob/main/.github/images/sync-changes-button.png?raw=true" />
 
 1. Nella navigazione a sinistra, seleziona la scheda **Explorer** per mostrare i file del progetto.
 

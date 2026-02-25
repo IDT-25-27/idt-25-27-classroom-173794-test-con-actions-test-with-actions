@@ -25,9 +25,9 @@ Risolviamo questo problema per evitare che qualcuno (accidentalmente) aggiri la 
 
    > 🪧 **Nota:** Per mantenere semplice la lezione, stiamo solo controllando il workflow di copertura. Sentiti libero però di sperimentare!
 
-   <img width="300" alt="target branch settings" src="../images/branch-protection-target-settings.png" />
+   <img width="300" alt="target branch settings" src="https://github.com/IDT-25-27/idt-25-27-classroom-173794-test-con-actions-test-with-actions/blob/main/.github/images/branch-protection-target-settings.png?raw=true" />
 
-   <img width="300" alt="required status checks" src="../images/required-status-checks.png" />
+   <img width="300" alt="required status checks" src="https://github.com/IDT-25-27/idt-25-27-classroom-173794-test-con-actions-test-with-actions/blob/main/.github/images/required-status-checks.png?raw=true" />
 
 1. Fai clic su **Create**.
 
@@ -35,7 +35,7 @@ Risolviamo questo problema per evitare che qualcuno (accidentalmente) aggiri la 
 
 1. Scorri fino in fondo per trovare i workflow falliti e il pulsante **Merge** è ora disabilitato! Ottimo! 🥰
 
-   <img width="500" alt="failed tests and disabled merge button" src="../images/failed-tests-disabled-merge.png" />
+   <img width="500" alt="failed tests and disabled merge button" src="https://github.com/IDT-25-27/idt-25-27-classroom-173794-test-con-actions-test-with-actions/blob/main/.github/images/failed-tests-disabled-merge.png?raw=true" />
 
 > [!TIP]
 > Interessato a imparare altri modi per preparare il tuo progetto per la collaborazione? Dopo dai un'occhiata all'esercizio [Introduction to Repository Management](https://github.com/skills/introduction-to-repository-management)!
@@ -133,6 +133,6 @@ In alternativa, puoi chiedere a GitHub Copilot di trovare i casi di test mancant
 
 1. Fai clic sul pulsante **Merge**.
 
-   <img width="500" alt="immagine" src="../images/merge-button-active.png" />
+   <img width="500" alt="immagine" src="https://github.com/IDT-25-27/idt-25-27-classroom-173794-test-con-actions-test-with-actions/blob/main/.github/images/merge-button-active.png?raw=true" />
 
 1. Con copertura totale, tutti i test superati e il merge della pull request completato, Mona condividerà una revisione finale. Congratulazioni, hai finito tutto!
